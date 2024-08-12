@@ -64,11 +64,12 @@ sources = [
         ],
         # "archive": "parenttext_all.zip",
         #"archive": "https://drive.usercontent.google.com/download?id=1V9fQZ9ZrzwRkQWBtlHJ1it0Fe3hdtHs2&export=download&authuser=0&confirm=t&uuid=f9d65ff1-b210-4b61-a030-cd4a231c22ca&at=APZUnTVzz2FLSi1riCmRjCFI5vCx:1696348063599",  # noqa: E501
-        "crowdin_name": "modules",
+        "crowdin_name": "navigation",
         "tags": [],
         #"tags": [1, "delivery",1 ,"menu",1,"onboarding",1,"safeguarding"],
-        #"tags": [1,"dev_assess",1,"module",1,"ltp_activity",1,"goal_checkin",4,"course"],
-        "split_no": 2
+         #"tags": [1,"goal_checkin",4,"course"],
+       # "tags": [1,"dev_assess",1,"module",1,"ltp_activity",1,"goal_checkin",4,"course"],
+        "split_no": 3
     },
 ]
 
@@ -97,7 +98,7 @@ folder_within_repo = "translations/parenttext_5day_south_africa"
 # 2 - We may want to reformat the quick replies so that long ones are added to the
 #     message text as above - for this use reference code "reformat"
 # 3 - We may not want to do anything, for this use reference code "none"
-qr_treatment = "reformat"
+qr_treatment = "reformat_whatsapp"
 
 # This is the default phrase we want to add in if the quick replies are being moved to
 # message text.
@@ -126,7 +127,7 @@ length_threshold = "18"
 # Same for all deployments.
 ab_testing_sheet_ID = "1i_oqiJYkeoMsYdeFOcKlvvjnNCEdQnZlsm17fgNvK0s"
 #  specific.
-localisation_sheet_ID = "1C0lxVtiBw8kuJ9z4CAtW5BYesskYbQaSylqg6k3-ebw" #remove?
+localisation_sheet_ID = "1C0lxVtiBw8kuJ9z4CAtW5BYesskYbQaSylqg6k3-ebw" 
 
 # Google Sheet ID containing dict edits data.
 # Same for all deployments.
